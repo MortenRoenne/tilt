@@ -201,4 +201,7 @@ module Tilt
 
   require 'tilt/plain'
   register PlainTemplate, 'html'
+
+  require 'tilt/plain_text'
+  register PlainTextTemplate, 'plain'
 end
